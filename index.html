@@ -9,34 +9,35 @@
     <title>CV</title>
 </head>
 
-<body>
-    <div class="article CV">
+<div class="article CV">
         <div class="section cvContent">
             <div class="cv-left">
-                <div class="wrapper">
-                    <div>
+                <header class="wrapper">
+                    <figure>
                         <img src="myPhoto.jpg" alt="myPhoto">
                         <h1>Voinilovich Anton</h1>
                         <ul>
                             <li><b>Date of birth:</b> 05.09.1996</li>
                             <li><b>City:</b> Brest</li>
                         </ul>
-                    </div>
-                    <div>
+                    </figure>
+                    <nav>
                         <h3>CONTACT DETAILS</h3>
-                        <p>Phone: +375 (33) 655-51-85</p>
-                        <p>Email: anton.voinilovich@gmail.com</p>
-                        <p>LinkedIn:<a href="https://www.linkedin.com/in/anton-voinilovich/"
-                                target="blank">anton-voinilovich</a></p>
-                        <p>Instagram<a href="https://www.instagram.com/ant_vojnilovich/"
-                                target="blank">ant_vojnilovich</a></p>
-                        <p>Skype: <a href="skype:Anton_Voinilovich">Anton_Voinilovich</a></p>
-                    </div>
-                </div>
+                        <ul>
+                            <li>Phone: +375 (33) 655-51-85</li>
+                            <li>Email: anton.voinilovich@gmail.com</li>
+                            <li>LinkedIn:<a href="https://www.linkedin.com/in/anton-voinilovich/"
+                                target="blank">anton-voinilovich</a></li>
+                            <li>Instagram<a href="https://www.instagram.com/ant_vojnilovich/"
+                                target="blank">ant_vojnilovich</a></li>
+                            <li>Skype: <a href="skype:Anton_Voinilovich">Anton_Voinilovich</a></li>
+                        </ul>
+                    </nav>
+                </header>
             </div>
             <div class="section cv-right">
                 <div class="wrapper">
-                    <div class="content">
+                    <section class="content">
                         <h2>EDUCATION</h2>
 
                         <h3>Brest State Technical University</h3>
@@ -45,8 +46,8 @@
                         <h3>IT Academy</h3>
                         <h4>October 2020 - February 2021</h4>
                         <p>JavaScript Web Application Development</p>
-                    </div>
-                    <div class="content">
+                    </section>
+                    <section class="content">
                         <h2>EXPERIENCE</h2>
                         <h3>Freelance: implementation of course and diploma projects in technical disciplines</h3>
                         <h4>2016 – present</h4>
@@ -69,8 +70,8 @@
                             Interaction with the customer: acceptance of the terms of reference, adjustments in the
                             course of work, delivery of completed work, signing of all accompanying documents
                             (acceptance certificates, estimate documentation, etc.).</p>
-                    </div>
-                    <div class="content">
+                    </section>
+                    <section class="content">
                         <h2>HARD SKILLS</h2>
                         <ul>
                             <li>HTML5 and CSS3.</li>
@@ -81,8 +82,8 @@
                             <li>JavaScript.</li>
                             <li>GitHub.</li>
                         </ul>
-                    </div>
-                    <div class="content">
+                    </section>
+                    <section class="content">
                         <h2>SOFT SKILLS</h2>
                         <ul>
                             <li>Self-discipline and constant self-study, perseverance.</li>
@@ -91,14 +92,28 @@
                             <li>Ability to work with large amounts of information, stress resistance.</li>
                             <li>English A1 + (I read, write, speaking is poorly developed).</li>
                         </ul>
-                    </div>
+                    </section>
+                    <section class="content">
+                        <h2>MY CODE</h2>
+                        <details>
+                            <summary>Open/Close</summary>
+                            <br>
+                            <p><i>Write a function that reverses an array. (Don't use array.reverse ())</i></p>
+                            <p>const reverse = (array) => {</p>
+                            <p>let arr = [];</p>
+                            <p>array.forEach(element => arr.unshift(element));</p>
+                            <p>return arr</p>
+                            <p>}</p>
+                            <p>const data = [1, 2, 3];</p>
+                            <p>console.log(reverse(data));</p>
+                        </details>
+                    </section>
                 </div>
             </div>
         </div>
-
-        <div class="footer">
+        <footer class="footer">
             <p>GitHUB<a href="https://github.com/AntonVoinilovich" target="blank">AntonVoinilovich</a>, 2021</p>
-        </div>
+        </footer>
     </div>
 </body>
 
