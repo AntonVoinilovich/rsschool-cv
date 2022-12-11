@@ -61,3 +61,23 @@ Direction:
 *October 2020 - Present.*
 
 Implementation of the management of the production and economic activities of the site. Organization of work production in accordance with project documentation, building codes and regulations, specifications and other regulatory documents. Accounting for work performed, maintaining technical documentation, providing material, tools and construction machines. Interaction with the customer: acceptance of the terms of reference, adjustments in the course of work, delivery of completed work, signing of all accompanying documents (acceptance certificates, estimate documentation, etc.).
+
+
+HARD SKILLS
+----------
+- HTML5 and CSS3.
+- Layout from PSD layout, adaptive layout, Flexbox, Grids, layout according to BEM methodology.
+- Bootstrap 5.
+- Basic knowledge of Adobe Photoshop, Figma.
+- JavaScript.
+- GitHub.
+- Salesforce (Apex, LWC, Visualforce).
+
+
+SOFT SKILLS
+----------
+- Self-discipline and constant self-study, perseverance.
+- Ability to independently find answers to questions.
+- Teamwork, listening and listening skills.
+- Ability to work with large amounts of information, stress resistance.
+- English A2.
